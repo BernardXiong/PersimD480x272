@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="test">
+    <widgets>
+      <widget name="animatedImage3" class="AnimatedImage">
+        <property name="interval">
+          <number>200</number>
+        </property>
+        <property name="images">
+          <image>title_about.png</image>
+          <image>title_language.png</image>
+          <image>title_wifi.png</image>
+          <image>wifi_setting_32.png</image>
+          <image>about_32.png</image>
+          <image>language_32.png</image>
+          <image>time_32.png</image>
+          <image>picture1.png</image>
+          <image>picture2.png</image>
+        </property>
+        <property name="rect">
+          <x>209</x>
+          <y>12</y>
+          <width>150</width>
+          <height>32</height>
+        </property>
+      </widget>
+      <widget name="imagebox2" class="ImageBox">
+        <property name="img">
+          <string>down_32.png</string>
+        </property>
+        <property name="rect">
+          <x>112</x>
+          <y>220</y>
+          <width>32</width>
+          <height>32</height>
+        </property>
+      </widget>
+      <widget name="animatedImage2" class="AnimatedImage">
+        <property name="interval">
+          <number>200</number>
+        </property>
+        <property name="images">
+          <image>titile_curve.png</image>
+          <image>titile_filem.png</image>
+          <image>titile_calc.png</image>
+          <image>titile_home.png</image>
+          <image>titile_list.png</image>
+          <image>titile_player.png</image>
+          <image>titile_setting.png</image>
+        </property>
+        <property name="rect">
+          <x>34</x>
+          <y>215</y>
+          <width>58</width>
+          <height>45</height>
+        </property>
+      </widget>
+      <widget name="animatedImage1" class="AnimatedImage" binddone="onDone">
+        <property name="interval">
+          <number>100</number>
+        </property>
+        <property name="images">
+          <image>IMG00000.png</image>
+          <image>IMG00001.png</image>
+          <image>IMG00002.png</image>
+          <image>IMG00003.png</image>
+        </property>
+        <property name="rect">
+          <x>3</x>
+          <y>12</y>
+          <width>200</width>
+          <height>200</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

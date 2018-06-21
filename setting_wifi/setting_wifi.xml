@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="setting_wifi">
+    <property name="backgroundImg">
+      <string>bg480272_5.png</string>
+    </property>
+    <widgets>
+      <widget name="label2" class="Label">
+        <property name="text">
+          <string>Enable Wi-Fi</string>
+        </property>
+        <property name="rect">
+          <x>77</x>
+          <y>54</y>
+          <width>104</width>
+          <height>23</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="foreground">
+          <a>255</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+      </widget>
+      <widget name="Switch1" class="Switch" bindchange="onEnable">
+        <property name="offBgImg">
+          <string>switch_off.png</string>
+        </property>
+        <property name="onBgImg">
+          <string>switch_on.png</string>
+        </property>
+        <property name="rect">
+          <x>77</x>
+          <y>80</y>
+          <width>50</width>
+          <height>33</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="listCtrl1" class="ListCtrl">
+        <property name="direction">
+          <enum>VERTICAL</enum>
+        </property>
+        <property name="gap">
+          <number>0</number>
+        </property>
+        <property name="rect">
+          <x>198</x>
+          <y>80</y>
+          <width>270</width>
+          <height>180</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="label1" class="Label">
+        <property name="text">
+          <string>Wi-Fi AP:</string>
+        </property>
+        <property name="rect">
+          <x>198</x>
+          <y>54</y>
+          <width>100</width>
+          <height>23</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="foreground">
+          <a>255</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+      </widget>
+      <widget name="panel1" class="Panel" custom="CustomPanels/statusbar">
+        <property name="rect">
+          <x>0</x>
+          <y>0</y>
+          <width>480</width>
+          <height>48</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

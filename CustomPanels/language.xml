@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <widget class="Panel" name="language">
+    <property name="background">
+      <a>255</a>
+      <r>255</r>
+      <g>255</g>
+      <b>255</b>
+    </property>
+    <property name="rect">
+      <x>0</x>
+      <y>0</y>
+      <width>480</width>
+      <height>224</height>
+    </property>
+    <widgets>
+      <widget name="imagebox1" class="ImageBox">
+        <property name="img">
+          <string>right_32.png</string>
+        </property>
+        <property name="rect">
+          <x>148</x>
+          <y>96</y>
+          <width>32</width>
+          <height>32</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="wheelImage1" class="WheelImage">
+        <property name="direction">
+          <enum>VERTICAL</enum>
+        </property>
+        <property name="norSize">
+          <number>32</number>
+        </property>
+        <property name="selSize">
+          <number>32</number>
+        </property>
+        <property name="images">
+          <image>zh_CN.png</image>
+          <image>zh_TW.png</image>
+          <image>japanese.png</image>
+          <image>english.png</image>
+          <image>french.png</image>
+        </property>
+        <property name="showNum">
+          <number>3</number>
+        </property>
+        <property name="rect">
+          <x>181</x>
+          <y>60</y>
+          <width>120</width>
+          <height>105</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

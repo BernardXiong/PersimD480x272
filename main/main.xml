@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="main">
+    <property name="backgroundImg">
+      <string>bg480272_3.png</string>
+    </property>
+    <widgets>
+      <widget name="dot" class="DotIndicator">
+        <property name="norImg">
+          <string>dot_normal.png</string>
+        </property>
+        <property name="selImg">
+          <string>dot_selected.png</string>
+        </property>
+        <property name="num">
+          <number>2</number>
+        </property>
+        <property name="selNum">
+          <number>0</number>
+        </property>
+        <property name="gap">
+          <number>15</number>
+        </property>
+        <property name="rect">
+          <x>202</x>
+          <y>252</y>
+          <width>77</width>
+          <height>20</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="panel1" class="Panel">
+        <property name="rect">
+          <x>0</x>
+          <y>0</y>
+          <width>480</width>
+          <height>48</height>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>255</r>
+          <g>255</g>
+          <b>128</b>
+        </property>
+        <property name="backgroundImg">
+          <string>Header-bg.png</string>
+        </property>
+        <widgets>
+          <widget name="button1" class="Button" bindtap="onHome">
+            <property name="norImg">
+              <string>home_40.png</string>
+            </property>
+            <property name="rect">
+              <x>12</x>
+              <y>4</y>
+              <width>40</width>
+              <height>40</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+          <widget name="imagebox2" class="ImageBox">
+            <property name="img">
+              <string>titile_home.png</string>
+            </property>
+            <property name="rect">
+              <x>165</x>
+              <y>10</y>
+              <width>150</width>
+              <height>32</height>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+        </widgets>
+      </widget>
+      <widget name="card1" class="Card" bindchange="onChangeCard">
+        <property name="direction">
+          <enum>HORIZONTAL</enum>
+        </property>
+        <property name="rect">
+          <x>0</x>
+          <y>48</y>
+          <width>480</width>
+          <height>198</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <widgets>
+          <widget name="panel3" class="Panel" custom="CustomPanels/card1">
+            <property name="rect">
+              <x>0</x>
+              <y>48</y>
+              <width>480</width>
+              <height>198</height>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+          <widget name="panel2" class="Panel" custom="CustomPanels/card2">
+            <property name="rect">
+              <x>0</x>
+              <y>48</y>
+              <width>480</width>
+              <height>198</height>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

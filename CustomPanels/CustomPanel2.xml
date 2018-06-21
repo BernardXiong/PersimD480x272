@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <widget name="custompanel1" class="Panel">
+    <property name="rect">
+      <x>0</x>
+      <y>0</y>
+      <width>480</width>
+      <height>48</height>
+    </property>
+    <property name="background">
+      <a>255</a>
+      <r>1</r>
+      <g>154</g>
+      <b>232</b>
+    </property>
+    <property name="backgroundImg">
+      <string>Header-bg.png</string>
+    </property>
+    <widgets>
+      <widget name="button1" class="Button" bindtap="onBack">
+        <property name="rect">
+          <x>10</x>
+          <y>8</y>
+          <width>32</width>
+          <height>32</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="norImg">
+          <string>back_32.png</string>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

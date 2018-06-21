@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="setting_about">
+    <widgets>
+      <widget name="imagebox1" class="ImageBox">
+        <property name="img">
+          <string>about.png</string>
+        </property>
+        <property name="rect">
+          <x>0</x>
+          <y>48</y>
+          <width>480</width>
+          <height>224</height>
+        </property>
+      </widget>
+      <widget name="panel1" class="Panel" custom="CustomPanels/statusbar">
+        <property name="rect">
+          <x>0</x>
+          <y>0</y>
+          <width>480</width>
+          <height>48</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

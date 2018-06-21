@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="setting_time">
+    <property name="background">
+      <a>255</a>
+      <r>255</r>
+      <g>255</g>
+      <b>255</b>
+    </property>
+    <widgets>
+      <widget name="imagebox1" class="ImageBox">
+        <property name="img">
+          <string>todo.png</string>
+        </property>
+        <property name="rect">
+          <x>117</x>
+          <y>103</y>
+          <width>246</width>
+          <height>110</height>
+        </property>
+      </widget>
+      <widget name="panel1" class="Panel" custom="CustomPanels/statusbar">
+        <property name="rect">
+          <x>0</x>
+          <y>0</y>
+          <width>480</width>
+          <height>48</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

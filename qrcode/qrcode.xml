@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="qrcode">
+    <property name="enterAnim">
+      <type>AnimMoveLeft</type>
+      <frames>10</frames>
+      <interval>50</interval>
+    </property>
+    <property name="exitAnim">
+      <type>AnimMoveBottom</type>
+      <frames>10</frames>
+      <interval>50</interval>
+    </property>
+    <widgets>
+      <widget name="QRCode1" class="QRCode">
+        <property name="source">
+          <string>http://www.rt-thread.org</string>
+        </property>
+        <property name="version">
+          <number>1</number>
+        </property>
+        <property name="rect">
+          <x>123</x>
+          <y>54</y>
+          <width>200</width>
+          <height>200</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="panel1" class="Panel" custom="CustomPanels/statusbar">
+        <property name="rect">
+          <x>0</x>
+          <y>0</y>
+          <width>480</width>
+          <height>48</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

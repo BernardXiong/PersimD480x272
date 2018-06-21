@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <widget class="Panel" name="custompanel1">
+    <property name="backgroundImg">
+      <string>wifiItemBG.png</string>
+    </property>
+    <property name="rect">
+      <x>0</x>
+      <y>0</y>
+      <width>270</width>
+      <height>50</height>
+    </property>
+    <widgets>
+      <widget name="label1" class="Label">
+        <property name="text">
+          <string>ChinaNet-test</string>
+        </property>
+        <property name="rect">
+          <x>13</x>
+          <y>14</y>
+          <width>100</width>
+          <height>23</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="imagebox1" class="ImageBox">
+        <property name="img">
+          <string>wifi_full_signal.png</string>
+        </property>
+        <property name="rect">
+          <x>216</x>
+          <y>9</y>
+          <width>32</width>
+          <height>32</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

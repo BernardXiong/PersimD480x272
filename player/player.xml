@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="player">
+    <property name="background">
+      <a>255</a>
+      <r>113</r>
+      <g>128</g>
+      <b>143</b>
+    </property>
+    <widgets>
+      <widget name="panel2" class="Panel">
+        <property name="rect">
+          <x>0</x>
+          <y>54</y>
+          <width>480</width>
+          <height>206</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="backgroundImg">
+          <string>player_bg.png</string>
+        </property>
+        <widgets>
+          <widget name="slider1" class="Slider" bindchange="onChange" bindchanging="onChanging">
+            <property name="minValue">
+              <number>0</number>
+            </property>
+            <property name="maxValue">
+              <number>100</number>
+            </property>
+            <property name="currentValue">
+              <number>10</number>
+            </property>
+            <property name="norImg">
+              <string>slider_nor_noA.png</string>
+            </property>
+            <property name="barImg">
+              <string>slider_bar_noA.png</string>
+            </property>
+            <property name="sliderImg">
+              <string>slider_slider_01.png</string>
+            </property>
+            <property name="rect">
+              <x>22</x>
+              <y>199</y>
+              <width>446</width>
+              <height>30</height>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+          <widget name="button5" class="Button">
+            <property name="norImg">
+              <string>love-nor32.png</string>
+            </property>
+            <property name="downImg">
+              <string>love_32.png</string>
+            </property>
+            <property name="rect">
+              <x>414</x>
+              <y>79</y>
+              <width>32</width>
+              <height>28</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+          <widget name="imagebox2" class="ImageBox">
+            <property name="img">
+              <string>music_title.png</string>
+            </property>
+            <property name="rect">
+              <x>163</x>
+              <y>75</y>
+              <width>159</width>
+              <height>68</height>
+            </property>
+          </widget>
+          <widget name="button4" class="Button">
+            <property name="norImg">
+              <string>speaker_32.png</string>
+            </property>
+            <property name="rect">
+              <x>414</x>
+              <y>157</y>
+              <width>32</width>
+              <height>32</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+          <widget name="button3" class="Button">
+            <property name="norImg">
+              <string>next_24.png</string>
+            </property>
+            <property name="rect">
+              <x>313</x>
+              <y>161</y>
+              <width>24</width>
+              <height>24</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+          <widget name="button2" class="Button">
+            <property name="norImg">
+              <string>play_32.png</string>
+            </property>
+            <property name="rect">
+              <x>242</x>
+              <y>157</y>
+              <width>32</width>
+              <height>32</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+          <widget name="button1" class="Button">
+            <property name="norImg">
+              <string>prev_24.png</string>
+            </property>
+            <property name="rect">
+              <x>179</x>
+              <y>161</y>
+              <width>24</width>
+              <height>24</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+          </widget>
+          <widget name="label1" class="Label">
+            <property name="text">
+              <string>00:32/05:20</string>
+            </property>
+            <property name="rect">
+              <x>22</x>
+              <y>232</y>
+              <width>108</width>
+              <height>27</height>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>255</r>
+              <g>255</g>
+              <b>255</b>
+            </property>
+          </widget>
+          <widget name="imagebox1" class="ImageBox">
+            <property name="img">
+              <string>music_info.png</string>
+            </property>
+            <property name="rect">
+              <x>22</x>
+              <y>79</y>
+              <width>110</width>
+              <height>110</height>
+            </property>
+          </widget>
+        </widgets>
+      </widget>
+      <widget name="panel1" class="Panel" custom="CustomPanels/statusbar">
+        <property name="rect">
+          <x>0</x>
+          <y>0</y>
+          <width>480</width>
+          <height>48</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

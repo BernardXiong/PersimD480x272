@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="list">
+    <property name="background">
+      <a>255</a>
+      <r>255</r>
+      <g>255</g>
+      <b>255</b>
+    </property>
+    <widgets>
+      <widget name="imagebox1" class="ImageBox">
+        <property name="img">
+          <string>picture1.png</string>
+        </property>
+        <property name="rect">
+          <x>139</x>
+          <y>48</y>
+          <width>341</width>
+          <height>224</height>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+      </widget>
+      <widget name="listCtrl1" class="ListCtrl">
+        <property name="direction">
+          <enum>VERTICAL</enum>
+        </property>
+        <property name="gap">
+          <number>0</number>
+        </property>
+        <property name="rect">
+          <x>0</x>
+          <y>48</y>
+          <width>139</width>
+          <height>224</height>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>242</r>
+          <g>242</g>
+          <b>242</b>
+        </property>
+      </widget>
+      <widget name="panel1" class="Panel" custom="CustomPanels/statusbar">
+        <property name="rect">
+          <x>0</x>
+          <y>0</y>
+          <width>480</width>
+          <height>48</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>

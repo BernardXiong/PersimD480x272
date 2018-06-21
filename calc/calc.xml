@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="calc">
+    <widgets>
+      <widget name="button9" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>9</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>162</x>
+          <y>96</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button_dot" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>.</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>240</x>
+          <y>206</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button5" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>5</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>162</x>
+          <y>151</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button4" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>4</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>84</x>
+          <y>151</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button_plus" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>+</string>
+        </property>
+        <property name="norImg">
+          <string>calc_other_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>318</x>
+          <y>206</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button_eq" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>=</string>
+        </property>
+        <property name="norImg">
+          <string>calc_other_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>396</x>
+          <y>205</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button3" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>3</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>6</x>
+          <y>151</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button2" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>2</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>162</x>
+          <y>206</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button1" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>1</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>84</x>
+          <y>206</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button0" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>0</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>6</x>
+          <y>206</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button_div" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>/</string>
+        </property>
+        <property name="norImg">
+          <string>calc_other_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>396</x>
+          <y>151</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button8" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>8</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>84</x>
+          <y>96</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button7" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>7</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>6</x>
+          <y>96</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button6" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>6</string>
+        </property>
+        <property name="norImg">
+          <string>calc_num_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>240</x>
+          <y>151</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button_back" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>Back</string>
+        </property>
+        <property name="norImg">
+          <string>calc_other_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>396</x>
+          <y>96</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button_minus" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>-</string>
+        </property>
+        <property name="norImg">
+          <string>calc_other_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>318</x>
+          <y>96</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button_mul" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>*</string>
+        </property>
+        <property name="norImg">
+          <string>calc_other_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>318</x>
+          <y>151</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="result" class="Label">
+        <property name="rect">
+          <x>12</x>
+          <y>51</y>
+          <width>456</width>
+          <height>38</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_RIGHT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button_clear" class="Button" bindtap="onButton">
+        <property name="text">
+          <string>C</string>
+        </property>
+        <property name="norImg">
+          <string>calc_other_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>240</x>
+          <y>96</y>
+          <width>78</width>
+          <height>55</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="panel1" class="Panel" custom="CustomPanels/statusbar">
+        <property name="rect">
+          <x>0</x>
+          <y>0</y>
+          <width>480</width>
+          <height>48</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+  <widgets />
+</rtgui>
